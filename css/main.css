@@ -16,7 +16,6 @@ body {
 
 	max-width: 1200px;
 	width: 90%;
-	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -31,64 +30,51 @@ h4 {
 	text-transform: uppercase;
 	font-weight: 700;
 }
-h1 {
-	font-size: 1.875em;
-}
-h2 {
-    font-size: 1.5em;
-}
-h3 {
-	font-size: 1.125em;
-}
-h4 {
-	font-size: .75em;
-}
 
 p {
 	font-size: .875em;
-	line-height: ;
-    padding: 0 30px;
+	line-height: 21px;
+   
 }
 
 /*The widths are in a percentage!*/
 header {
-	height: ;
 	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: column;
-	
-
+	text-align: center;
 }
 
 header h1 {
+	font-size: 1.875em;
 	margin: 0;
-	padding: 1em;
-	border-bottom: #77a466 3px;
+	padding: .8em;
+	width: 100%;
+
 }
+
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	
-	padding: 46px 0;
+	padding: 26px 0;
 }
 header nav ul {
 	margin: 0;
 	padding: 0;
-	background-color: mediumblue;
+	flex-direction: column;
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: 10px;
+	padding: 10px 0;
 	display: flex;
-	flex-direction: column;
+	
 }
 header nav ul li a{
 	text-decoration: none;
@@ -98,8 +84,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -107,51 +92,36 @@ header nav ul li a{
 	
 }
 
-.main-image {
-	height: auto;
-
-}
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	height: auto;
-	
 }
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
 	color: #77a466;
+	font-size: 1.125em;
 }
 .main-title p {
 	padding: 0;
 	font-size: 1em;
-	line-height: ;
+	line-height: 1.563em;
+}
+.bottom-section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 1em;
 }
 
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
-	height: auto;
-	
+	width: 100%;
 	border-top: 1px solid #eee;
-}
-
-.section-one h4 {
-	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
-.section-two h4,
-.section-three h4 {
-	padding: 10px 30px;
 }
 
 .menu {
@@ -166,23 +136,23 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 1em;
-	line-height: ;
+	line-height: 1.3em;
 }
 
 .address {
 	font-size: 1em;
-	line-height: ;
+	line-height: 1.5em;
 }
 
 /*The widths are in a percentage!*/
 footer {
 	border-top: 3px solid #eee;
-	margin: 0 auto;
-	text-align: center;
 	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	justify-content: center;
 	align-items: center;
-	width: 90%;
-	flex-flow: row;
+	
 
 }
 footer span {
